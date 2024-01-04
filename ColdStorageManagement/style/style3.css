@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  #banner {
+    background: linear-gradient(rgba(233, 229, 229, 0.158), rgba(229, 234, 236, 0.13)), url(https://admin.rxinsider.com/file/horizon_scientific_ice-bb91-1654699363.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    min-height: 100vh;
+  }
+  
+  .logo {
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+  }
+  
+  .logo img {
+    max-width: 200px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+  
+  li {
+    float: right;
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+  }
+  
+  li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 3px solid; /* Add initial transparent border */
+    border-radius: 20px; /* Rounded corners */
+  }
+  
+  li a:hover {
+    background-color: #000000;
+    color: #fffbfb;
+    border-color: #fffdfd; /* Change the border color on hover */
+  }
+  
+
+  
+  li a.active {
+    background-color: #704410;
+    color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
